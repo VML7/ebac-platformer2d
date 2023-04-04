@@ -170,8 +170,8 @@ MonoBehaviour:
   - {fileID: 293781285080760886}
   - {fileID: 2001296468}
   - {fileID: 727510467}
-  duration: 0.5
-  delay: 0.1
+  duration: 1
+  delay: 0.5
   ease: 27
 --- !u!1 &172683978
 GameObject:
@@ -3858,7 +3858,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2912493437716295891, guid: 23b1901a68f30b549b609ca6e9b4eb5e, type: 3}
       propertyPath: m_Name
-      value: PFB_Credits
+      value: PFB_About
       objectReference: {fileID: 0}
     - target: {fileID: 6022266972402662344, guid: 23b1901a68f30b549b609ca6e9b4eb5e, type: 3}
       propertyPath: m_Pivot.x
@@ -3950,11 +3950,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6976310730827804756, guid: 23b1901a68f30b549b609ca6e9b4eb5e, type: 3}
       propertyPath: m_text
-      value: Credits
+      value: About
       objectReference: {fileID: 0}
     - target: {fileID: 8780681047883352761, guid: 23b1901a68f30b549b609ca6e9b4eb5e, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23b1901a68f30b549b609ca6e9b4eb5e, type: 3}
