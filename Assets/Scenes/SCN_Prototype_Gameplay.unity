@@ -555,3 +555,4 @@ MonoBehaviour:
   myRigidbody: {fileID: 1285153881}
   velocity: {x: 30, y: 0}
   speed: 10
+  forceJump: 15
