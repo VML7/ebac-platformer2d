@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 579, y: 371}
   m_MaxSize: {x: 16004, y: 14021}
   vertical: 0
-  controlID: 13303
+  controlID: 16818
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 371}
   m_MaxSize: {x: 12003, y: 14021}
   vertical: 1
-  controlID: 13304
+  controlID: 16796
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 121}
   m_MaxSize: {x: 12003, y: 4021}
   vertical: 0
-  controlID: 13305
+  controlID: 16797
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,10 +218,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 4}
+      scrollPos: {x: 0, y: 160}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: fcd0ffff9cd1ffff9ed1ffffa2d1ffffa6d1ffffa8d1ffff16d4ffffb2f2ffffecfafffff4fafffff8faffff08fbffff2cfbffff2efbffff6cfbffff384400009644000008450000
+      m_ExpandedIDs: 447dffff487dffff567dffff9cd1ffff9ed1ffffa2d1ffffa6d1ffffa8d1ffff16d4ffffb2f2ffffecfafffff4fafffff8faffff08fbffff2cfbffff2efbffff6cfbffff9644000008450000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -307,9 +307,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 54.584682, y: 2.193974, z: -7.9757376}
+    m_Target: {x: 66.92114, y: -9.017634, z: -16.434864}
     speed: 2
-    m_Value: {x: 54.584682, y: 2.193974, z: -7.9757376}
+    m_Value: {x: 66.92114, y: -9.017634, z: -16.434864}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -360,9 +360,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 17.068762
+    m_Target: 4.9239135
     speed: 2
-    m_Value: 17.068762
+    m_Value: 4.9239135
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -432,8 +432,8 @@ MonoBehaviour:
     y: 374
     width: 1020
     height: 271
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
@@ -479,21 +479,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts/Enemy
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts/Enemy
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Mauro Melo\Documents\GitHub\ebac-platformer2d
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 138}
-    m_SelectedIDs: 18480000
-    m_LastClickedID: 18456
+    scrollPos: {x: 0, y: 314}
+    m_SelectedIDs: 1e480000
+    m_LastClickedID: 18462
     m_ExpandedIDs: 00000000ea470000ec470000ee470000f0470000f2470000f4470000f6470000fe470000284800005c4b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -547,8 +547,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: fc440000
-    m_LastClickedInstanceID: 17660
+    m_SelectedInstanceIDs: b0d1ffff
+    m_LastClickedInstanceID: -11856
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000000000000a4900009e450000
     m_RenameOverlay:
@@ -630,7 +630,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 17660
+  m_LastSelectedObjectID: -11856
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -650,8 +650,8 @@ MonoBehaviour:
     y: 0
     width: 346
     height: 645
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -689,8 +689,8 @@ MonoBehaviour:
     m_CachedPref: 151
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 17660
-  m_LastVerticalScrollValue: 360
+  m_LastInspectedObjectInstanceID: -11856
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
