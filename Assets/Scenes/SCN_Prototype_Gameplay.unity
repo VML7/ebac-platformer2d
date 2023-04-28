@@ -2831,7 +2831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba9fa4b518ead18469ca56eac0b7a524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startLife: 6
+  startLife: 4
   destroyOnKill: 0
   delayToKill: 0
   _flashColor: {fileID: 0}
@@ -3895,7 +3895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba9fa4b518ead18469ca56eac0b7a524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startLife: 10
+  startLife: 30
   destroyOnKill: 0
   delayToKill: 1
   _flashColor: {fileID: 1987693219}
