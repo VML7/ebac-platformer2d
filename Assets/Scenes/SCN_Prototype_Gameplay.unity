@@ -371,7 +371,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564793, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_TagString
-      value: Coin
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564794, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_RootOrder
@@ -899,7 +899,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564793, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_TagString
-      value: Coin
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564794, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_RootOrder
@@ -1042,7 +1042,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564793, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_TagString
-      value: Coin
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564794, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_RootOrder
@@ -1108,7 +1108,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564793, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_TagString
-      value: Coin
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564794, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_RootOrder
@@ -1179,7 +1179,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564793, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_TagString
-      value: Coin
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564794, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_RootOrder
@@ -1634,7 +1634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564793, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_TagString
-      value: Coin
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564794, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_RootOrder
@@ -1876,7 +1876,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564793, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_TagString
-      value: Coin
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564794, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_RootOrder
@@ -2366,7 +2366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564793, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_TagString
-      value: Coin
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564794, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_RootOrder
@@ -2670,7 +2670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564793, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_TagString
-      value: Coin
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564794, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_RootOrder
@@ -3608,7 +3608,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564793, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_TagString
-      value: Coin
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564794, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_RootOrder
@@ -3674,7 +3674,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564793, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_TagString
-      value: Coin
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564794, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_RootOrder
@@ -3736,7 +3736,6 @@ GameObject:
   - component: {fileID: 1285153881}
   - component: {fileID: 1285153885}
   - component: {fileID: 1285153886}
-  - component: {fileID: 1285153887}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3899,19 +3898,6 @@ MonoBehaviour:
   destroyOnKill: 0
   delayToKill: 1
   _flashColor: {fileID: 1987693219}
---- !u!114 &1285153887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1285153880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b16c766d1a70ae641b9dea7ca5de4591, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreTxt: {fileID: 190941852}
 --- !u!212 &1286336270 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 4402658883949824882, guid: 3de838754c767a446a5473969062a84e, type: 3}
@@ -4084,7 +4070,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564793, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_TagString
-      value: Coin
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564794, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_RootOrder
@@ -4602,7 +4588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564793, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_TagString
-      value: Coin
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564794, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_RootOrder
@@ -4668,7 +4654,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564793, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_TagString
-      value: Coin
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564794, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_RootOrder
@@ -4729,7 +4715,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564793, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_TagString
-      value: Coin
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564794, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_RootOrder
@@ -4979,7 +4965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564793, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_TagString
-      value: Coin
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564794, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_RootOrder
@@ -5062,6 +5048,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coins: 0
+  uiTextCoins: {fileID: 190941852}
 --- !u!4 &1594355215
 Transform:
   m_ObjectHideFlags: 0
@@ -5353,7 +5340,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564793, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_TagString
-      value: Coin
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564794, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_RootOrder
@@ -6858,7 +6845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564793, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_TagString
-      value: Coin
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3991619809830564794, guid: d4f21129d98229a4da6b4ac0fe83298b, type: 3}
       propertyPath: m_RootOrder

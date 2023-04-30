@@ -6,7 +6,7 @@ using TMPro;
 
 public class ColectCoin : MonoBehaviour
 {
-    public TMP_Text scoreTxt;
+    /*public TMP_Text scoreTxt;
     private int score;
 
     void Start()
@@ -27,5 +27,5 @@ public class ColectCoin : MonoBehaviour
             score = score + 1;
             Destroy(collision.gameObject);
         }
-    }
+    }*/
 }
