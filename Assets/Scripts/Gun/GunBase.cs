@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class GunBase : MonoBehaviour
 {
@@ -10,8 +11,15 @@ public class GunBase : MonoBehaviour
     public float timeBetweenShoot = .3f;
     public Transform playerSideReference;
 
+    private Coroutine _currentCoroutine;
 
-    private Coroutine _currentCoroutine; 
+    public KeyCode keyCode = KeyCode.Z;
+    public AudioRandomPlayAudioClips randomShoot;
+
+    private void Awake()
+    {
+        playerSideReference = GameObject.FindObjectOfType<Player>().transform;
+    }
 
     void Update()
     {
@@ -37,6 +45,8 @@ public class GunBase : MonoBehaviour
 
     public void Shoot()
     {
+        if (randomShoot != null) randomShoot.PlayRandom();
+
         var projectile = Instantiate(prefabProjectile);
         projectile.transform.position = positionToShoot.position;
         projectile.side = playerSideReference.transform.localScale.x;
