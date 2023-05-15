@@ -6,7 +6,7 @@ using TMPro;
 
 public class ColectCoin : MonoBehaviour
 {
-    /*public TMP_Text scoreTxt;
+    public TMP_Text scoreTxt;
     private int score;
 
     void Start()
@@ -22,10 +22,10 @@ public class ColectCoin : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Coin")== true)
+        if (collision.CompareTag("EXP")== true)
         {
             score = score + 1;
             Destroy(collision.gameObject);
         }
-    }*/
+    }
 }

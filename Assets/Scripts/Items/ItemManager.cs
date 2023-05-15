@@ -7,7 +7,9 @@ using Ebac.Core.Singleton;
 public class ItemManager : Singleton<ItemManager>
 {
     public SOInt coins;
+    public SOInt exp;
     public TextMeshProUGUI uiTextCoins;
+    public TextMeshProUGUI uiTextExp;
 
     private void Start()
     {
@@ -17,12 +19,14 @@ public class ItemManager : Singleton<ItemManager>
     private void Reset()
     {
         coins.value = 0;
+        exp.value = 0;
         UpdateUI();
     }
 
     public void AddCoins(int amount = 1)
     {
         coins.value += amount;
+        exp.value += amount;
         UpdateUI();
     }
 
