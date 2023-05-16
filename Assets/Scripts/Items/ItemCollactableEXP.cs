@@ -9,7 +9,7 @@ public class ItemCollactableEXP : ItemCollactableBase
     protected override void OnCollect()
     {
         base.OnCollect();
-        ItemManager.Instance.AddCoins();
+        ItemManager.Instance.AddEXP();
         collider.enabled = false;
     }
 }

@@ -26,6 +26,11 @@ public class ItemManager : Singleton<ItemManager>
     public void AddCoins(int amount = 1)
     {
         coins.value += amount;
+        UpdateUI();
+    }
+
+    public void AddEXP(int amount = 1)
+    {
         exp.value += amount;
         UpdateUI();
     }
