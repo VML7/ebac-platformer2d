@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
 {
     public Rigidbody2D myRigidbody;
     public HealthBase healthBase;
+    public AudioRandomPlayAudioClips randomJump;
 
     [Header("Setup")]
     public SOPlayerSetup soPlayerSetup;
@@ -113,10 +114,12 @@ public class Player : MonoBehaviour
             myRigidbody.velocity = Vector2.up * soPlayerSetup.forceJump;
             myRigidbody.transform.localScale = Vector2.one;
 
+
             DOTween.Kill(myRigidbody.transform);
 
             HandleScaleJump();
             PlayJumpVFX();
+            PlayJumpSFX();
         }
     }
 
@@ -130,6 +133,11 @@ public class Player : MonoBehaviour
     {
         myRigidbody.transform.DOScaleY(soPlayerSetup.jumpScaleY, soPlayerSetup.animationDuration).SetLoops(2, LoopType.Yoyo).SetEase(soPlayerSetup.ease);
         myRigidbody.transform.DOScaleX(soPlayerSetup.jumpScaleX, soPlayerSetup.animationDuration).SetLoops(2, LoopType.Yoyo).SetEase(soPlayerSetup.ease);
+    }
+
+    private void PlayJumpSFX()
+    {
+        if (randomJump != null) randomJump.PlayRandom();
     }
 
     public void DestroyMe()
