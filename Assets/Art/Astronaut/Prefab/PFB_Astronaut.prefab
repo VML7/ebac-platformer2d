@@ -255,6 +255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 334b4e7249c9d1f469a5f73a786568a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioType: 1
   audioClipList:
   - {fileID: 8300000, guid: 3d8f480d252db9449b2f978284506f8e, type: 3}
   - {fileID: 8300000, guid: 79e6e1370ee1ca747b469e68d0dcb0fe, type: 3}
@@ -312,6 +313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 334b4e7249c9d1f469a5f73a786568a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioType: 0
   audioClipList:
   - {fileID: 8300000, guid: f0f9c11c7257f48feb7f87746b03e573, type: 3}
   - {fileID: 8300000, guid: 654d1ed270c714ddb8c934ac5fef5edc, type: 3}
@@ -2476,6 +2478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 334b4e7249c9d1f469a5f73a786568a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioType: 0
   audioClipList:
   - {fileID: 8300000, guid: 22b5b26c3429f42c482afafb562afc2a, type: 3}
   - {fileID: 8300000, guid: a948133482bd9461cbcb85c1b36c59b7, type: 3}

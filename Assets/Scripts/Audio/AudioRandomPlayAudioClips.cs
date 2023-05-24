@@ -4,6 +4,14 @@ using UnityEngine;
 
 public class AudioRandomPlayAudioClips : MonoBehaviour
 {
+    public enum Type
+    {
+        SHOOT,
+        JUMP
+    }
+
+    public Type audioType;
+
     public List<AudioClip> audioClipList;
 
     public List<AudioSource> audioSourceList;

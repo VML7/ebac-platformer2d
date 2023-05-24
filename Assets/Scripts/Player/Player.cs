@@ -33,6 +33,17 @@ public class Player : MonoBehaviour
 
         _currentPlayer = Instantiate(soPlayerSetup.player, transform);
 
+        randomJump = null;
+        AudioRandomPlayAudioClips[] randoms = _currentPlayer.gameObject.GetComponentsInChildren<AudioRandomPlayAudioClips>();
+        for (int i = 0; i < randoms.Length; ++i)
+        {
+            if (randoms[i].audioType == AudioRandomPlayAudioClips.Type.JUMP)
+            {
+                randomJump = randoms[i];
+            }
+        }
+
+
         if (collider2D != null)
         {
             distToGround = collider2D.bounds.extents.y;
