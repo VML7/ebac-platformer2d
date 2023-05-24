@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Hierarchy
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 442}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 695
-  m_MinSize: {x: 875, y: 442}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -119,8 +119,8 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 645
-  m_MinSize: {x: 580, y: 392}
-  m_MaxSize: {x: 16005, y: 14042}
+  m_MinSize: {x: 581, y: 392}
+  m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
   controlID: 166
 --- !u!114 &6
@@ -144,8 +144,8 @@ MonoBehaviour:
     y: 0
     width: 1020
     height: 645
-  m_MinSize: {x: 304, y: 392}
-  m_MaxSize: {x: 12004, y: 14042}
+  m_MinSize: {x: 305, y: 392}
+  m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
   controlID: 63
 --- !u!114 &7
@@ -170,8 +170,8 @@ MonoBehaviour:
     y: 0
     width: 1020
     height: 367
-  m_MinSize: {x: 304, y: 121}
-  m_MaxSize: {x: 12004, y: 4021}
+  m_MinSize: {x: 305, y: 121}
+  m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
   controlID: 64
 --- !u!114 &8
@@ -193,8 +193,8 @@ MonoBehaviour:
     y: 0
     width: 241
     height: 367
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -428,7 +428,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0cb4ffff24b4ffff54b5ffffd0c4ffffa8ddffffc0ddfffff0deffff04f9ffff08f9ffff24f9ffff56f9ffff6cfbffff98450000
+      m_ExpandedIDs: 56f9ffff6cfbffff84440000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -701,22 +701,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Jump
+    - Assets/Scripts/Player
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Jump
+  - Assets/Scripts/Player
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Mauro Melo\Documents\GitHub\ebac-platformer2d
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 483}
-    m_SelectedIDs: e64c0000
-    m_LastClickedID: 19686
-    m_ExpandedIDs: 00000000b64c0000b84c0000ba4c0000bc4c0000be4c0000c04c0000c24c0000c44c0000c64c0000c84c0000ca4c0000cc4c0000ce4c0000d04c0000d24c0000d44c0000d64c0000d84c0000da4c0000dc4c0000e44c000000ca9a3b
+    scrollPos: {x: 0, y: 915}
+    m_SelectedIDs: 6e4d0000
+    m_LastClickedID: 19822
+    m_ExpandedIDs: 00000000de4c0000e04c0000e24c0000e44c0000e64c0000e84c0000ea4c0000ec4c0000ee4c0000f04c0000f24c0000f44c0000f64c0000f84c0000fa4c0000fc4c0000fe4c0000004d0000024d0000044d00000c4d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -744,7 +744,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b64c0000b84c0000ba4c0000bc4c0000be4c0000c04c0000c24c0000c44c0000c64c0000c84c0000ca4c0000cc4c0000ce4c0000d04c0000d24c0000d44c0000d64c0000d84c0000da4c0000dc4c0000
+    m_ExpandedIDs: 00000000de4c0000e04c0000e24c0000e44c0000e64c0000e84c0000ea4c0000ec4c0000ee4c0000f04c0000f24c0000f44c0000f64c0000f84c0000fa4c0000fc4c0000fe4c0000004d0000024d0000044d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -771,7 +771,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300000a4900009e45000000000000bce4fffffe520000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -852,7 +852,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_MixersTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 86470000
+    m_SelectedIDs: 
     m_LastClickedID: 18310
     m_ExpandedIDs: 12eb343c
     m_RenameOverlay:
